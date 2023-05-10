@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*************************BODY******************************/
+body{
+    font-family: 'Patua One', cursive;
+    background: rgb(248,156,250);
+    background: radial-gradient(circle, rgba(248,156,250,1) 31%, rgba(243,174,245,1) 73%);
+}
+
+/*-------------------------------------HEADER HOME------------------------------------*/
+.logo{
+    height: 5rem;
+    border-radius: 100%;
+}
+
+.nav{
+    margin-bottom: 0.5rem;
+    background-color: rgb(126, 6, 126);
+}
+
+.barra__link{
+    margin: 0.5rem;
+    transition: .5s;
+}
+
+.barra__link:hover{
+    transform: scale(1.2);
+}
+
+.barra__link--button{
+    color: black;
+    background-color: rgb(241, 55, 241);
+    margin: 0 1rem;
+    border-radius: 15px;
+    border: solid 0.1rem black;
+    transition: .5s;
+}
+
+.barra__link--button:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+/*------------------------------------------MAIN HOME--------------------------------------*/
+
+main{
+    margin-top: 1rem;
+}
+
+.home1{
+    text-align: center;
+
+}
+
+.h1__home{
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.img__home{
+height: 50rem;
+}
+
+.home2{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    margin: 10rem;
+}
+
+.home2__texto{
+    margin: 1rem;
+    color: black;
+    text-align: center;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+
+.home2__seccion2__video{
+    width: 50rem;
+    height: 30rem;
+    margin: 3rem;
+}
+
+p{
+    line-height: 2rem;
+    color: black;
+}
+
+/*********************************** MAIN NOVEDADES ************************************/
+
+.container {  
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: min-content min-content min-content min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "titulo titulo img img"
+        "parrafo parrafo img img"
+        "parrafo parrafo img img"
+        "butom butom img img";
+        margin-bottom: 2rem;
+    }
+    
+.titulo {
+    grid-area: titulo;
+}
+    
+.parrafo {
+    grid-area: parrafo;
+}
+    
+.butom {
+    grid-area: butom;
+}
+
+.boton{
+    color: black;
+    background-color: rgb(36, 6, 211);
+    padding: 1.5rem;
+    margin: 0 1rem;
+    border-radius: 15px;
+    border: solid 0.1rem black;
+    transition: .5s;
+}
+
+.boton:hover{
+    background-color: rgb(248, 248, 248);
+}
+    
+.img {
+    grid-area: img;
+}
+
+/*********************************** MAIN NOSOTROS ************************************/
+
+.nosotros{
+    text-align: center;
+}
+
+.nosotros__img1{
+    height: 40rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.nosotros__img2{
+    height: 40rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.h1__nosotros{
+    margin-bottom: 2rem;
+}
+
+.h2__nosotros{
+    margin-top: 2rem;
+    margin-bottom: 0%;
+}
+
+.h3__nosotros{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+/*---------------------------------------------------------MAIN PRODUCTOS-----------------------------------------*/
+.buscador{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.card{
+    background-color: rgb(126, 6, 126);
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 5%;
+    margin: 1rem;
+    margin-bottom: 10rem;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card__img{
+    width: 100%;
+}
+
+.card div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card div a{
+    background-color: rgb(248, 248, 248);
+    color: black;
+    padding: .3;
+    border-radius: 0.3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------MAI CONTACTO------------------------------------------------*/
+.contacto{
+    text-align: center;
+}
+
+.contacto__subtitulo{
+    text-align: center;
+}
+
+.formulario{
+    margin-bottom: 5rem;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+}
+/*---------------------------------------------------------MAI FAQ------------------------------------------------*/
+
+.faq{
+    text-align: center;
+}
+
+.faq__secciones{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/********************************FOOTER************************************/
+.pie{
+    background-color: rgb(77, 71, 71);
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 15rem;
+}
+
+.pie__seccion1{
+    margin: 5rem;
+}
+
+
+.pie__seccion1_list{
+    list-style: none;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.pie__seccion2{
+    margin-top: 5rem;
+    margin-left: 40rem;
+}
+
+.pie__seccion3{
+    margin-top: 5rem;
+    margin-left: 30rem;
+}
+
+.direccion{
+    color: rgb(255, 255, 255);
+}
+
+.redes{
+    list-style-type: none;
+}
+
+.redes__whatsapp{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+.redes__whatsapp:hover{
+    transform: scale(1.2);
+}
+
+.redes__instagram{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.redes__instagram:hover{
+    transform: scale(1.2);
+}
+
+.redes__facebook{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.redes__facebook:hover{
+    transform: scale(1.2);
+}
+
+.li__pie{
+    transition: .5s;
+}
+
+.li__pie:hover{
+    transform: scale(1.2);
+}
+
+.direccion{
+    transition: .5s;
+}
+
+.direccion:hover{
+    transform: scale(1.2);
+}
+
+/*-------------------------------RESPONSIVE----------------------------------------*/
+
+
+@media screen and (max-width: 425px){
+    .nav{
+        width: 100%;
+    }
+    .pie{
+        display: none;
+    }
+    .home2__seccion2__video{
+        display: none;
+    }
+    .contacto__img{
+        display: none;
+    }
+}
