@@ -1,0 +1,85 @@
+/********************************FOOTER************************************/
+.pie{
+    background-color: #4d4747;
+    color: #ffffff;
+    display: flex;
+    height: 15rem;
+}
+
+.pie__seccion1{
+    margin: 5rem;
+}
+
+
+.pie__seccion1_list{
+    list-style: none;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.pie__seccion2{
+    margin-top: 5rem;
+    margin-left: 40rem;
+}
+
+.pie__seccion3{
+    margin-top: 5rem;
+    margin-left: 30rem;
+}
+
+.direccion{
+    color: #ffffff;
+}
+
+.redes{
+    list-style-type: none;
+}
+
+.redes__whatsapp{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+.redes__whatsapp:hover{
+    transform: scale(1.2);
+}
+
+.redes__instagram{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.redes__instagram:hover{
+    transform: scale(1.2);
+}
+
+.redes__facebook{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.redes__facebook:hover{
+    transform: scale(1.2);
+}
+
+.li__pie{
+    transition: .5s;
+}
+
+.li__pie:hover{
+    transform: scale(1.2);
+}
+
+.direccion{
+    transition: .5s;
+}
+
+.direccion:hover{
+    transform: scale(1.2);
+}

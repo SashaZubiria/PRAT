@@ -1,0 +1,32 @@
+/*-------------------------------------NAV HOME------------------------------------*/
+.logo{
+    height: 5rem;
+    border-radius: 100%;
+}
+
+.nav{
+    margin-bottom: 0.5rem;
+    background-color: #7e067e;
+}
+
+.barra__link{
+    margin: 0.5rem;
+    transition: .5s;
+}
+
+.barra__link:hover{
+    transform: scale(1.2);
+}
+
+.barra__link--button{
+    color: #000000;
+    background-color: #f137f1;
+    margin: 0 1rem;
+    border-radius: 15px;
+    border: solid 0.1rem #000000;
+    transition: .5s;
+}
+
+.barra__link--button:hover{
+    background-color: #f8f8f8;
+}

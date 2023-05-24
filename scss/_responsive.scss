@@ -1,0 +1,112 @@
+/*-------------------------------RESPONSIVE----------------------------------------*/
+
+
+@media screen and (max-width: 425px){
+
+    /************RESPONSIVE 425 NAV*********************************/
+    .nav{
+        width: 100%;
+    }
+    /************RESPONSIVE 425 MAIN HOME*********************************/
+    .img__home{
+        width: 100%;
+        height: 10rem;
+        }
+    .h1__home{
+        font-size: 2rem;
+        text-align: center;
+    }
+    h2{
+        margin: 5rem;
+    }
+    /************RESPONSIVE 425 FOOTER*********************************/
+
+    .pie__seccion1{
+        display: none;
+    }
+    .pie__seccion2{
+        display: none;
+    }
+    .pie__seccion3{
+        text-align: center;
+        margin-left: 5rem;
+    }
+    .redes{
+        display: flex;
+    }
+    .home2__seccion2__video{
+        display: none;
+    }
+        /************RESPONSIVE 425 CONTACTO*********************************/
+    .contacto__img{
+        display: none;
+    }
+    /************RESPONSIVE 425 NOVEDADES*********************************/
+    .img__novedades{
+        width: 20rem;
+    }
+        /************RESPONSIVE 425 NOSOTROS*********************************/
+    .nosotros__img2{
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px){
+    /************RESPONSIVE 426/1023 NAV*********************************/
+    .nav{
+        width: 100%;
+    }
+    /************RESPONSIVE 426/1023 HOME*********************************/
+    .img__home{
+        width: 100%;
+        height: 10rem;
+        }
+        .home2__seccion2__video{
+            display: none;
+        }
+
+    /************RESPONSIVE 426/1023 FOOTER*********************************/
+    .pie__seccion1{
+        display: none;
+    }
+    .pie__seccion2{
+        display: none;
+    }
+    .pie__seccion3{
+        text-align: center;
+        margin-left: 17rem;
+    }
+    .redes{
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px){
+/************RESPONSIVE 1024/1365 NAV*********************************/
+    .nav{
+        width: 100%;
+    }
+    /************RESPONSIVE 1024/1365 HOME*********************************/
+    .img__home{
+        width: 100%;
+        height: 40rem;
+        }
+    .home2__seccion2__video{
+        display: none;
+    }
+/************RESPONSIVE 1024/1365 FOOTER*********************************/
+.pie__seccion1{
+    display: none;
+}
+.pie__seccion2{
+    display: none;
+}
+.pie__seccion3{
+    text-align: center;
+    margin-left: 2rem;
+}
+.redes{
+    display: flex;
+}
+}

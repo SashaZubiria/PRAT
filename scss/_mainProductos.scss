@@ -1,0 +1,45 @@
+/*---------------------------------------------------------MAIN PRODUCTOS-----------------------------------------*/
+.buscador{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.card{
+    background-color: $color-nav;
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 5%;
+    margin: 1rem;
+    margin-bottom: 10rem;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card__img{
+    width: 100%;
+}
+
+.card div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card div a{
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: .3;
+    border-radius: 0.3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}

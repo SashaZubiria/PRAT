@@ -1,0 +1,23 @@
+/*---------------------------------------------------------MAI CONTACTO------------------------------------------------*/
+.contacto{
+    text-align: center;
+}
+
+.contacto__subtitulo{
+    text-align: center;
+}
+.formulario{
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 1rem;
+}
