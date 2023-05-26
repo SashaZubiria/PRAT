@@ -487,3 +487,12 @@ input {
     width: 40rem;
   }
 }
+.img404 {
+  width: 80rem;
+}
+
+.buton404 {
+  background-color: rgb(212, 210, 68);
+  padding: 5rem;
+  border-radius: 50rem;
+}
