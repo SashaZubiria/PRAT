@@ -3,11 +3,7 @@
     background-color: #4d4747;
     color: #ffffff;
     display: flex;
-    height: 15rem;
-}
-
-.pie__seccion1{
-    margin: 5rem;
+    justify-content: space-between;
 }
 
 
@@ -15,16 +11,6 @@
     list-style: none;
     font-size: 1.1rem;
     line-height: 2rem;
-}
-
-.pie__seccion2{
-    margin-top: 5rem;
-    margin-left: 40rem;
-}
-
-.pie__seccion3{
-    margin-top: 5rem;
-    margin-left: 30rem;
 }
 
 .direccion{

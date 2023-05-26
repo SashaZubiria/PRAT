@@ -143,6 +143,11 @@ p {
   width: 50rem;
 }
 
+.novedades {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+
 /*********************************** MAIN NOSOTROS ************************************/
 .nosotros {
   text-align: center;
@@ -215,7 +220,7 @@ p {
   border-radius: 0.3rem;
 }
 
-.container {
+.container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,27 +293,15 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 15rem;
-}
-
-.pie__seccion1 {
-  margin: 5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .pie__seccion1_list {
   list-style: none;
   font-size: 1.1rem;
   line-height: 2rem;
-}
-
-.pie__seccion2 {
-  margin-top: 5rem;
-  margin-left: 40rem;
-}
-
-.pie__seccion3 {
-  margin-top: 5rem;
-  margin-left: 30rem;
 }
 
 .direccion {
@@ -384,6 +377,15 @@ input {
   .nav {
     width: 100%;
   }
+  .barra__link {
+    margin: 0.5rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .barra__link:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
   /************RESPONSIVE 425 MAIN HOME*********************************/
   .img__home {
     width: 100%;
@@ -396,22 +398,6 @@ input {
   h2 {
     margin: 5rem;
   }
-  /************RESPONSIVE 425 FOOTER*********************************/
-  .pie__seccion1 {
-    display: none;
-  }
-  .pie__seccion2 {
-    display: none;
-  }
-  .pie__seccion3 {
-    text-align: center;
-    margin-left: 5rem;
-  }
-  .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .home2__seccion2__video {
     display: none;
   }
@@ -421,14 +407,14 @@ input {
   }
   /************RESPONSIVE 425 NOVEDADES*********************************/
   .img__novedades {
-    width: 20rem;
+    width: 11rem;
   }
   /************RESPONSIVE 425 NOSOTROS*********************************/
   .nosotros__img2 {
     height: 15rem;
   }
 }
-@media screen and (min-width: 426px) and (max-width: 1023px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
   /************RESPONSIVE 426/1023 NAV*********************************/
   .nav {
     width: 100%;
@@ -441,50 +427,63 @@ input {
   .home2__seccion2__video {
     display: none;
   }
-  /************RESPONSIVE 426/1023 FOOTER*********************************/
-  .pie__seccion1 {
-    display: none;
+  /************RESPONSIVE 425 NOSOTROS*********************************/
+  .nosotros__img2 {
+    height: 15rem;
   }
-  .pie__seccion2 {
-    display: none;
-  }
-  .pie__seccion3 {
-    text-align: center;
-    margin-left: 17rem;
-  }
-  .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  /************RESPONSIVE 426/1023 NOVEDADES*********************************/
+  .img__novedades {
+    width: 13rem;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1100px) {
-  /************RESPONSIVE 1024/1365 NAV*********************************/
-  .nav {
-    width: 100%;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /************RESPONSIVE 768/1023 NAV*********************************/
+  .barra__link {
+    margin: 0.5rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
-  /************RESPONSIVE 1024/1365 HOME*********************************/
+  .barra__link:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  /************RESPONSIVE 768/1023 HOME*********************************/
   .img__home {
     width: 100%;
-    height: 40rem;
+    height: 15rem;
   }
   .home2__seccion2__video {
     display: none;
   }
-  /************RESPONSIVE 1024/1365 FOOTER*********************************/
-  .pie__seccion1 {
+  /************RESPONSIVE 768/1023 NOVEDADES*********************************/
+  .img__novedades {
+    width: 22rem;
+  }
+  /************RESPONSIVE 425 NOSOTROS*********************************/
+  .nosotros__img2 {
+    height: 15rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  /************RESPONSIVE 1024/1100 NAV*********************************/
+  .nav {
+    width: 100%;
+  }
+  /************RESPONSIVE 1024/100 HOME*********************************/
+  .img__home {
+    width: 100%;
+    height: 30rem;
+  }
+  .home2__seccion2__video {
     display: none;
   }
-  .pie__seccion2 {
-    display: none;
+  /************RESPONSIVE 1024/1100 NOVEDADES*********************************/
+  .img__novedades {
+    width: 30rem;
   }
-  .pie__seccion3 {
-    text-align: center;
-    margin-left: 2rem;
-  }
-  .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+}
+@media screen and (min-width: 1101px) and (max-width: 1440px) {
+  .img__novedades {
+    width: 40rem;
   }
 }

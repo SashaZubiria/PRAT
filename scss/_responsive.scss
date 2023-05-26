@@ -7,6 +7,15 @@
     .nav{
         width: 100%;
     }
+
+    .barra__link{
+        margin: 0.5rem;
+        transition: .5s;
+    }
+    
+    .barra__link:hover{
+        transform: scale(1.2);
+    }
     /************RESPONSIVE 425 MAIN HOME*********************************/
     .img__home{
         width: 100%;
@@ -19,31 +28,17 @@
     h2{
         margin: 5rem;
     }
-    /************RESPONSIVE 425 FOOTER*********************************/
-
-    .pie__seccion1{
-        display: none;
-    }
-    .pie__seccion2{
-        display: none;
-    }
-    .pie__seccion3{
-        text-align: center;
-        margin-left: 5rem;
-    }
-    .redes{
-        display: flex;
-    }
     .home2__seccion2__video{
         display: none;
     }
+
         /************RESPONSIVE 425 CONTACTO*********************************/
     .contacto__img{
         display: none;
     }
     /************RESPONSIVE 425 NOVEDADES*********************************/
     .img__novedades{
-        width: 20rem;
+        width: 11rem;
     }
         /************RESPONSIVE 425 NOSOTROS*********************************/
     .nosotros__img2{
@@ -51,7 +46,7 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1023px){
+@media screen and (min-width: 426px) and (max-width: 767px){
     /************RESPONSIVE 426/1023 NAV*********************************/
     .nav{
         width: 100%;
@@ -64,49 +59,65 @@
         .home2__seccion2__video{
             display: none;
         }
-
-    /************RESPONSIVE 426/1023 FOOTER*********************************/
-    .pie__seccion1{
-        display: none;
+    /************RESPONSIVE 425 NOSOTROS*********************************/
+    .nosotros__img2{
+        height: 15rem;
     }
-    .pie__seccion2{
-        display: none;
-    }
-    .pie__seccion3{
-        text-align: center;
-        margin-left: 17rem;
-    }
-    .redes{
-        display: flex;
+    /************RESPONSIVE 426/1023 NOVEDADES*********************************/
+    .img__novedades{
+        width: 13rem;
     }
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+/************RESPONSIVE 768/1023 NAV*********************************/
+    .barra__link{
+        margin: 0.5rem;
+        transition: .5s;
+    }
+    
+    .barra__link:hover{
+        transform: scale(1);
+    }
+/************RESPONSIVE 768/1023 HOME*********************************/
+    .img__home{
+        width: 100%;
+        height: 15rem;
+    }
+    .home2__seccion2__video{
+        display: none;
+    }
+/************RESPONSIVE 768/1023 NOVEDADES*********************************/
+    .img__novedades{
+        width: 22rem;
+    }
+/************RESPONSIVE 425 NOSOTROS*********************************/
+    .nosotros__img2{
+        height: 15rem;
+    }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1100px){
-/************RESPONSIVE 1024/1365 NAV*********************************/
+/************RESPONSIVE 1024/1100 NAV*********************************/
     .nav{
         width: 100%;
     }
-    /************RESPONSIVE 1024/1365 HOME*********************************/
+    /************RESPONSIVE 1024/100 HOME*********************************/
     .img__home{
         width: 100%;
-        height: 40rem;
+        height: 30rem;
         }
     .home2__seccion2__video{
         display: none;
     }
-/************RESPONSIVE 1024/1365 FOOTER*********************************/
-.pie__seccion1{
-    display: none;
+    /************RESPONSIVE 1024/1100 NOVEDADES*********************************/
+    .img__novedades{
+        width: 30rem;
+    }
 }
-.pie__seccion2{
-    display: none;
-}
-.pie__seccion3{
-    text-align: center;
-    margin-left: 2rem;
-}
-.redes{
-    display: flex;
-}
+@media screen and (min-width: 1101px) and (max-width: 1440px){
+    .img__novedades{
+        width: 40rem;
+    }
 }
