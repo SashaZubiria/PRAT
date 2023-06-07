@@ -487,8 +487,9 @@ input {
   }
 }
 @media screen and (min-width: 1101px) and (max-width: 1440px) {
+  /************RESPONSIVE 1101/1440 NOVEDADES*********************************/
   .img__novedades {
-    width: 40rem;
+    width: 35rem;
   }
 }
 .img404 {
